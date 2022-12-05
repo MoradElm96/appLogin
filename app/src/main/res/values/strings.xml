@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">InfoGanaderia</string>
+
+    <string name="btnIniciarSession">Inciar Sesion</string>
+    <string name="bntRegistar">Registrarse</string>
+    <string name="btnIniciarSesionbtn">Iniciar Sesion</string>
+    <string name="editCorreo">Email</string>
+
+    <string name="editContrasena">Password</string>
+
+</resources>
