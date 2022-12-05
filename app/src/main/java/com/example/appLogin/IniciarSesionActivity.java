@@ -30,8 +30,8 @@ public class IniciarSesionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_iniciar_sesion);
 
         mAuth = FirebaseAuth.getInstance();
-        correo = findViewById(R.id.editCorreo);
-        contrasena = findViewById(R.id.editContrasena);
+        correo = (EditText) findViewById(R.id.editCorreo);
+        contrasena = (EditText) findViewById(R.id.editContrasena);
 
 
     }
@@ -44,6 +44,15 @@ public class IniciarSesionActivity extends AppCompatActivity {
         //updateUI(currentUser);
     }
 
+
+
+    public  void irArestablecerPassword(View view){
+
+        Intent i = new Intent(getApplicationContext(),ResetPasswordd.class);
+        startActivity(i);
+
+
+    }
    public void iniciarSesion(View view){
 
 

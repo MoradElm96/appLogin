@@ -12,13 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.appLogin">
         <activity
-            android:name="com.example.appLogin.RegistraseActivity"
+            android:name=".ResetPasswordd"
             android:exported="false" />
         <activity
-            android:name="com.example.appLogin.IniciarSesionActivity"
+            android:name=".RegistraseActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.appLogin.MainActivity"
+            android:name=".IniciarSesionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

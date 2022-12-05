@@ -8,4 +8,7 @@
 
     <string name="editContrasena">Password</string>
 
+    <string name="btnResetPassword">Restablecer Contraseña</string>
+    <string name="btnOlvidarContrasena">Olvidé la contraseña</string>
+
 </resources>
